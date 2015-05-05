@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Ändere den Inhalt der framework-res.apk. Drücke hier zum Bearbeiten der Einstellungen.</string>
+    <string name="datac">Mobile Daten</string>
+    <string name="label_dataw">[JB] Deaktiviere die Datenwarnung</string>
+    <string name="sum_dataw">Deaktiviere die Datenwarnung, wenn du die Mobilen Daten anschaltest.</string>
+    <string name="label_dataiconon">Deaktiviere \"Mobile Daten aus\"</string>
+    <string name="sum_dataiconon">Deaktiviere \"Mobile Daten aus\" wenn du diese deaktivierst. (Für Z1 4.2)</string>
+    <string name="label_dataiconona">Deaktiviere \"Mobile Daten aus\"</string>
+    <string name="sum_dataiconona">Deaktiviere \"Mobile Daten aus\" wenn du diese deaktivierst. (Für A)</string>
+    <string name="label_dataicon">Verstecke das \"Mobile Daten aus\" Icon in der Statusleiste</string>
+    <string name="sum_dataicon">Verstecke das Icon und die Benachrichtigung die auftaucht wenn du die Mobilen Daten ein/aus schaltest</string>
+    <string name="label_3guse">Zeige \"Nur 3G Netzwerk\"</string>
+    <string name="sum_3guse">Bevorzuge Nur 3G in den Mobilen Dateneinstellungen</string>
+    <string name="label_prefmode">Verändere Netzwerkstatus</string>
+    <string name="sum_prefmode">Zeige alle Netzwermodi die du verwenden möchtest</string>
+    <string name="label_prefedit">Wähle das angezeigte Netzwerk</string>
+    <string name="sum_prefedit">Wähle ein Netzwerk in den Einstellungen mit Nummern. Standart wert ist \"0,1,2,3,4,5,6,7,8,9,10,11\". Füge 12 oder höheres ein wenn du andere Träger verwendest wie z.b. docomo.</string>
+    <string name="callc">Anruf</string>
+    <string name="label_callrec">Aktiviere Anrufaufnahme</string>
+    <string name="sum_callrec">Aktiviere zukünftig Anrufaufnahme\nDer Aufnahme button ist im Menü des Anruferbildschirm</string>
+    <string name="label_ansmach">Aktiviere Anrufbeantworter</string>
+    <string name="sum_ansmach">Aktiviere zukünftig den Anrufbeantworter</string>
+    <string name="label_callend">Deaktiviere den Anruf beendet Bildschirm (SemcPhone)</string>
+    <string name="sum_callend">Deaktiviere Anruf beendet anzeige</string>
+    <string name="label_callend3">Deaktiviere Anruf beendet anzeige (InCallUI)</string>
+    <string name="sum_callend3">Deaktiviere Anruf beendet anzeige. (Nutze diese Option wenn dein Gerät kein SemcPhone besitzt. z.B. Z3)</string>
+    <string name="label_volte">Zeige VoLTE optionen</string>
+    <string name="sum_volte">Zeige VoLTE optionen in den Anrufereinstellungen</string>
+    <string name="label_camoff">Zeige Option zum ausschalten der Kamera</string>
+    <string name="sum_camoff">Zeige Option zum ausschalten der Kamera während eines Videoanrufes</string>
+    <string name="label_voonly">Zeige nur Sprachanruf möglich</string>
+    <string name="sum_voonly">Zeige nur Sprachanruf option während eines eingehenden Videoanruf</string>
+    <string name="label_novcbutton">Verstecke Videoanruf Taste</string>
+    <string name="sum_novcbutton">Verstecke Videoanruf Taste im Anruferbildschirm</string>
+    <string name="label_rejectmsg">Verstecke \"Beantworte Anruf mit Nachricht\"</string>
+    <string name="sum_rejectmsg">Verstecke die \"Beantworte Anruf mit Nachricht Taste\"</string>
+    <string name="label_rejectmsgz3">Verstecke die \"Beantworte Anruf mit Nachricht Taste\" (InCallUI)</string>
+    <string name="sum_rejectmsgz3">Verstecke \"Beantworte Anruf mit Nachricht Taste\". (Nutze diese Option wenn dein Gerät kein SemcPhone besitzt. z.B. Z3)</string>
+    <string name="sum_rejectmsge1">Verstecke die \"Beantworte Anruf mit Nachricht Taste\". (Verwenden Sie diese Option, statt der darüber, wenn Sie kein Flaggschiff besitzen. Bsp. E1 Dual)</string>
+    <string name="soundc">Sound</string>
+    <string name="label_soundeh">Aktiviere alte Sound einstellungen</string>
+    <string name="sum_soundeh">"Aktiviere xLOUD™, Clear Phase™ and Clear Stereo."</string>
+    <string name="label_rebootaf">Notiz</string>
+    <string name="nosum">Starte neu um einen Effekt zu erzielen.</string>
+    <string name="mesum">"@WedyDQ10"</string>
+</resources>

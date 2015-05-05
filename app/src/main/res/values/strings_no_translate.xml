@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">XPhonePlus</string>
+
+    <string name="volte_toggle_title" translatable="false">VoLTEを有効化</string>
+    
+    <string name="phone_settings_call_blocking_txt">着信拒否</string>
+    <string name="phone_settings_block_calls_setting_txt">着信の拒否</string>
+    <string name="phone_settings_block_calls_setting_summary_txt">指定した着信を拒否するようにします。</string>
+    <string name="phone_settings_block_types_of_calls_txt">拒否する着信の種類</string>
+    <string name="phone_settings_number_not_in_contact_txt">連絡先登録外</string>
+    <string name="phone_settings_number_not_in_contact_summary_txt">連絡先に登録していない番号からの着信を拒否します。</string>
+    <string name="phone_settings_private_num_txt">非通知</string>
+    <string name="phone_settings_private_num_summary_txt">電話番号が通知されていない着信を拒否します。</string>
+    <string name="phone_settings_payphone_txt">公衆電話</string>
+    <string name="phone_settings_payphone_summary_txt">公衆電話からの着信を拒否します。</string>
+    <string name="phone_settings_unknown_txt">通知不可能</string>
+    <string name="phone_settings_unknown_summary_txt">電話番号を通知不可能な着信を拒否します。</string>
+    <string name="phone_strings_note_dialog_title_txt">注意</string>
+    <string name="phone_settings_call_blocking_turned_off_emergency_dialog_text_txt">緊急通報すると、緊急通報受理機関からの着信を受けるため着信拒否はOFFになります。</string>
+    <string name="phone_strings_call_blocking_turned_off_notification_title_txt">着信拒否</string>
+    <string name="phone_strings_call_blocking_turned_off_notification_text_txt">着信拒否がOFFになりました</string>
+    <string name="phone_strings_emergency_call_made_dialog_title_txt">緊急通報モード</string>
+    <string name="phone_strings_emergency_call_made_dialog_call_blocking_text_txt">緊急通報受理機関からの着信を受けるため、着信拒否設定がOFFになりました。</string>
+
+</resources>

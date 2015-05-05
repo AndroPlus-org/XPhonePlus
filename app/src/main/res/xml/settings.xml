@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
+    	<PreferenceCategory
+	android:key="data_category"
+	android:title="@string/datac" >
+	</PreferenceCategory>
+	<CheckBoxPreference
+	    android:key="key_dataw"
+	    android:title="@string/label_dataw"
+	    android:summary="@string/sum_dataw"
+	    android:defaultValue="false" />
+	<CheckBoxPreference
+	    android:key="key_dataicon"
+	    android:title="@string/label_dataicon"
+	    android:summary="@string/sum_dataicon"
+	    android:defaultValue="false" />
+	<CheckBoxPreference
+	    android:key="key_3guse"
+	    android:title="@string/label_3guse"
+	    android:summary="@string/sum_3guse"
+	    android:defaultValue="false" />
+	<CheckBoxPreference
+	    android:key="key_apn_cdma"
+	    android:title="@string/label_apn_cdma"
+	    android:summary="@string/sum_apn_cdma"
+	    android:defaultValue="false" />
+	<CheckBoxPreference
+	    android:key="key_prefmode"
+	    android:title="@string/label_prefmode"
+	    android:summary="@string/sum_prefmode"
+	    android:defaultValue="false" />
+	<EditTextPreference 
+	    android:defaultValue="0,1,2,3,4,5,6,7,8,9,10,11" 
+	    android:key="key_prefedit" 
+	    android:title="@string/label_prefedit"
+	    android:summary="@string/sum_prefedit"
+	    android:dependency="key_prefmode"
+	    />
+	    
+	<PreferenceCategory
+	android:key="call_category"
+	android:title="@string/callc" >
+	</PreferenceCategory>
+	<CheckBoxPreference
+	    android:key="key_rejectmsgz3"
+	    android:title="@string/label_rejectmsgz3"
+	    android:summary="@string/sum_rejectmsgz3"
+	    android:defaultValue="false" />
+	<CheckBoxPreference
+	    android:key="key_hide_volte_icon"
+	    android:title="@string/label_hide_volte_icon"
+	    android:summary="@string/sum_hide_volte_icon"
+	    android:defaultValue="false" />
+	<CheckBoxPreference
+	    android:key="key_call_block"
+	    android:title="@string/label_call_block"
+	    android:summary="@string/sum_call_block"
+	    android:defaultValue="false" />
+	    
+	<PreferenceCategory
+	android:key="call_category"
+	android:title="@string/soundc" >
+	</PreferenceCategory>
+	<CheckBoxPreference
+	    android:key="key_soundeh"
+	    android:title="@string/label_soundeh"
+	    android:summary="@string/sum_soundeh"
+	    android:defaultValue="false" />
+	
+	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">
+            <intent android:action="android.intent.action.VIEW"
+             android:data="https://androplus.org" />
+        </Preference>
+</PreferenceScreen>
