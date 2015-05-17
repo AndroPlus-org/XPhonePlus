@@ -2,6 +2,8 @@
 <resources>
 
     <string name="app_name" translatable="false">XPhonePlus</string>
+    
+    <string name="mesum">"@AndroPlus_org"</string>
 
     <string name="volte_toggle_title" translatable="false">VoLTEを有効化</string>
     
@@ -23,5 +25,22 @@
     <string name="phone_strings_call_blocking_turned_off_notification_text_txt">着信拒否がOFFになりました</string>
     <string name="phone_strings_emergency_call_made_dialog_title_txt">緊急通報モード</string>
     <string name="phone_strings_emergency_call_made_dialog_call_blocking_text_txt">緊急通報受理機関からの着信を受けるため、着信拒否設定がOFFになりました。</string>
+    
+    <string name="phone_settings_prefix_setting_txt">プレフィックス設定</string>
+    <string name="phone_settings_add_prefix_number_txt">番号を追加</string>
+    <string name="phone_settings_add_prefix_title_txt">プレフィックスを追加</string>
+    <string name="phone_settings_code_limitation_toast_txt">番号は最大%s桁です</string>
+    <string name="phone_settings_context_menu_delete_txt">削除</string>
+    <string name="phone_settings_context_menu_edit_txt">編集</string>
+    <string name="phone_settings_edit_item_code_txt">番号</string>
+    <string name="phone_settings_edit_item_name_txt">名称</string>
+    <string name="phone_settings_edit_prefix_title_txt">プレフィックスを編集</string>
+    <string name="phone_settings_item_added_toast_txt">追加しました</string>
+    <string name="phone_settings_item_changed_toast_txt">変更しました</string>
+    <string name="phone_settings_item_deleted_toast_txt">削除しました</string>
+    <string name="phone_settings_name_limitation_toast_txt">名称は最大14文字です</string>
+    <string name="phone_settings_prefix_delete_dialog_txt">このプレフィックスを削除しますか?</string>
+    <string name="phone_settings_prefix_max_dialog_text_txt">プレフィックスの最大登録数は6件です。使用していないものを削除するか、既存のものを直接編集してください。</string>
+    
 
 </resources>

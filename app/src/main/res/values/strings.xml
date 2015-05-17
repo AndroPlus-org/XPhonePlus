@@ -47,7 +47,10 @@
     <string name="sum_hide_volte_icon">Hide VoLTE icon in status bar.</string>
     <string name="label_call_block">Enable call blocking</string>
     <string name="sum_call_block">Enable call blocking.</string>
+    <string name="label_speed_dial">Enable speed dial</string>
+    <string name="sum_speed_dial">Enable speed dial in phonebook.</string>
+    <string name="label_add_prefix">Enable prefix settings</string>
+    <string name="sum_add_prefix">Enable Add Prefix in phonebook and prefix settings in call settings.</string>
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>
-    <string name="mesum">"@WedyDQ10"</string>
 </resources>

@@ -57,6 +57,16 @@
 	    android:title="@string/label_call_block"
 	    android:summary="@string/sum_call_block"
 	    android:defaultValue="false" />
+	<CheckBoxPreference
+	    android:key="key_speed_dial"
+	    android:title="@string/label_speed_dial"
+	    android:summary="@string/sum_speed_dial"
+	    android:defaultValue="false" />
+	<CheckBoxPreference
+	    android:key="key_add_prefix"
+	    android:title="@string/label_add_prefix"
+	    android:summary="@string/sum_add_prefix"
+	    android:defaultValue="false" />
 	    
 	<PreferenceCategory
 	android:key="call_category"

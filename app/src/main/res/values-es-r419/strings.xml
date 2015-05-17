@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Cambia varios valores ocultos para SemcPhone. Entra para configurarlos.</string>
+    <string name="datac">Datos móviles.</string>
+    <string name="label_dataw">Desactivar alerta por gastos de datos</string>
+    <string name="sum_dataw">Desactivar alerta por gasto de datos cuando tu activas los datos mobiles.</string>
+    <string name="label_dataiconon">Desactivar alerta al quitar los datos</string>
+    <string name="sum_dataiconon">Desactivar alerta de datos cuando los desactivas.(Para Z1 4.2)</string>
+    <string name="label_dataiconona">Desactivar alerta por quitar los datos</string>
+</resources>

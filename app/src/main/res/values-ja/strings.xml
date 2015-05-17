@@ -15,7 +15,7 @@
     <string name="label_prefmode">表示するネットワークモード</string>
     <string name="sum_prefmode">モバイルネットワーク設定でどのネットワークモードを表示するか設定します。</string>
     <string name="label_prefedit">ネットワークモードの指定</string>
-    <string name="sum_prefedit">表示するネットワークモードを数字で指定します。デフォルトは"0,1,2,3,4,5,6,7,8,9,10,11\"です。ドコモなど一部のキャリアでは12などを追加しないといけないことがあります。</string>
+    <string name="sum_prefedit">表示するネットワークモードを数字で指定します。デフォルトは\"0,1,2,3,4,5,6,7,8,9,10,11\"です。ドコモなど一部のキャリアでは12などを追加しないといけないことがあります。</string>
     <string name="callc">通話機能</string>
     <string name="label_callrec">通話録音の有効化</string>
     <string name="sum_callrec">通話録音機能を使えるようにします。\n録音開始ボタンは通話中画面のメニューの中にあります。</string>
@@ -47,7 +47,10 @@
     <string name="sum_hide_volte_icon">ステータスバーに出るVoLTEアイコンを隠します。</string>
     <string name="label_call_block">着信拒否を有効化</string>
     <string name="sum_call_block">着信拒否機能を使えるようにします。</string>
+    <string name="label_speed_dial">短縮ダイヤルを有効化</string>
+    <string name="sum_speed_dial">短縮ダイヤル (スピードダイヤル)を有効にします。</string>
+    <string name="label_add_prefix">プレフィックス設定の有効化</string>
+    <string name="sum_add_prefix">通話設定にプレフィックス設定を追加し、連絡先で「プレフィックスを追加」を使えるようにします。</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
-    <string name="mesum">"@WedyDQ10"</string>
 </resources>

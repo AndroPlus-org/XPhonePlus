@@ -101,6 +101,38 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			}
 		}
 		
+		// Enable prefix
+		boolean isPrefix = preference.getBoolean("key_add_prefix", false);
+
+		if(isPrefix){
+			try {
+			resparam.res.setReplacement("com.android.phone", "bool", "config_enable_prefix_settings", true);
+			} catch (Throwable t) {
+			XposedBridge.log(t.getMessage());
+			}
+			if (Locale.JAPAN.equals(Locale.getDefault())){
+				try {
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_prefix_setting_txt", modRes.fwd(R.string.phone_settings_prefix_setting_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_add_prefix_number_txt", modRes.fwd(R.string.phone_settings_add_prefix_number_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_add_prefix_title_txt", modRes.fwd(R.string.phone_settings_add_prefix_title_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_code_limitation_toast_txt", modRes.fwd(R.string.phone_settings_code_limitation_toast_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_context_menu_delete_txt", modRes.fwd(R.string.phone_settings_context_menu_delete_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_context_menu_edit_txt", modRes.fwd(R.string.phone_settings_context_menu_edit_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_edit_item_code_txt", modRes.fwd(R.string.phone_settings_edit_item_code_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_edit_item_name_txt", modRes.fwd(R.string.phone_settings_edit_item_name_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_edit_prefix_title_txt", modRes.fwd(R.string.phone_settings_edit_prefix_title_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_prefix_delete_dialog_txt", modRes.fwd(R.string.phone_settings_prefix_delete_dialog_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_prefix_max_dialog_text_txt", modRes.fwd(R.string.phone_settings_prefix_max_dialog_text_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_item_added_toast_txt", modRes.fwd(R.string.phone_settings_item_added_toast_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_item_changed_toast_txt", modRes.fwd(R.string.phone_settings_item_changed_toast_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_item_deleted_toast_txt", modRes.fwd(R.string.phone_settings_item_deleted_toast_txt));
+				resparam.res.setReplacement("com.android.phone", "string", "phone_settings_name_limitation_toast_txt", modRes.fwd(R.string.phone_settings_name_limitation_toast_txt));
+			} catch (Throwable t) {
+			XposedBridge.log(t.getMessage());
+			}
+			}
+		}
+		
 		}//End
 		
 		
@@ -217,15 +249,26 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		}//End
 		
 		// Phonebook
-		/*if (resparam.packageName.equals("com.sonyericsson.android.socialphonebook")){
+		if (resparam.packageName.equals("com.sonyericsson.android.socialphonebook")){
 		XModuleResources modRes = XModuleResources.createInstance(MODULE_PATH, resparam.res);
 		
-		// Disable call ended screen
-		boolean isHiddenm = preference.getBoolean("key_hiddenmenu", false);
+		// Enable speed dial
+		boolean isSpeedd = preference.getBoolean("key_speed_dial", false);
 
-		if(isHiddenm){
+		if(isSpeedd){
 			try {
-			resparam.res.setReplacement("com.sonyericsson.android.socialphonebook", "bool", "enable_hidden_menu", true);
+			resparam.res.setReplacement("com.sonyericsson.android.socialphonebook", "bool", "enable_speed_dial", true);
+			} catch (Throwable t) {
+			XposedBridge.log(t.getMessage());
+			}
+		}
+		
+		// Enable prefix
+		boolean isPrefix = preference.getBoolean("key_add_prefix", false);
+
+		if(isPrefix){
+			try {
+			resparam.res.setReplacement("com.sonyericsson.android.socialphonebook", "bool", "enable_add_prefix", true);
 			} catch (Throwable t) {
 			XposedBridge.log(t.getMessage());
 			}
@@ -234,7 +277,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		}//End
 		
 		// framework-res
-		if (resparam.packageName.equals("android")){
+		/*if (resparam.packageName.equals("android")){
 		XModuleResources modRes = XModuleResources.createInstance(MODULE_PATH, resparam.res);
 		
 		// Force Enable VoLTE
